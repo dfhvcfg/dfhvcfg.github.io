@@ -30,5 +30,20 @@
 ## 结果展示
 
 - 分析时间序列数据中的季节性成分
-![示例图片](images/example.png)
+- 
+![示例图片](https://github.com/dfhvcfg/dfhvcfg.github.io/blob/image/image/%E5%AD%A3%E8%8A%82%E6%80%A7%E6%88%90%E5%88%86.png)
+### 朴素预测
+- 朴素预测(每小时的RMSE得分)
+- ![示例图片](https://github.com/dfhvcfg/dfhvcfg.github.io/blob/image/image/RMSE%20-%20Naive%20Forecasting(%E6%AF%8F%E5%B0%8F%E6%97%B6%E7%9A%84RMSE%E5%BE%97%E5%88%86).png)
+- 朴素预测(一天中实际值与预测值的对比)
+- ![示例图片](https://github.com/dfhvcfg/dfhvcfg.github.io/blob/image/image/24%20hr%20Actual%20vs%20Predicte(%E4%B8%80%E5%A4%A9%E4%B8%AD%E5%AE%9E%E9%99%85%E5%80%BC%E4%B8%8E%E9%A2%84%E6%B5%8B%E5%80%BC%E7%9A%84%E5%AF%B9%E6%AF%94).png)
 
+### CNN-BiLSTM模型预测
+- 每小时的RMSE得分
+- ![示例图片](https://github.com/dfhvcfg/dfhvcfg.github.io/blob/image/image/RMSE-CNN-BiLSTM(%E6%AF%8F%E5%B0%8F%E6%97%B6%E7%9A%84RMSE%E5%BE%97%E5%88%86).png)
+
+- 绘制训练和验证过程中的损失变化
+- ![示例图片](https://github.com/dfhvcfg/dfhvcfg.github.io/blob/image/image/%E8%AE%AD%E7%BB%83%E5%92%8C%E9%AA%8C%E8%AF%81%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E6%8D%9F%E5%A4%B1%E5%8F%98%E5%8C%96.png)
+
+- 展示一天中实际值与预测值的对比
+- ![示例图片](https://github.com/dfhvcfg/dfhvcfg.github.io/blob/image/image/%E4%B8%80%E5%A4%A9%E4%B8%AD%E5%AE%9E%E9%99%85%E5%80%BC%E4%B8%8E%E9%A2%84%E6%B5%8B%E5%80%BC%E7%9A%84%E5%AF%B9%E6%AF%94.png)
